@@ -293,7 +293,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4855,11 +4855,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869388197538279862, guid: eea27b8762450f24f952905d1007adb3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -3.164
       objectReference: {fileID: 0}
     - target: {fileID: 8869388197538279862, guid: eea27b8762450f24f952905d1007adb3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.809
       objectReference: {fileID: 0}
     - target: {fileID: 8869388197538279862, guid: eea27b8762450f24f952905d1007adb3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4910,9 +4910,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4564815343471246852, guid: 509315d838f598449b489a694b57d12c, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 6184499408137118245, guid: 509315d838f598449b489a694b57d12c, type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7345959939149464187, guid: 509315d838f598449b489a694b57d12c, type: 3}
+      propertyPath: moveSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7345959939149464187, guid: 509315d838f598449b489a694b57d12c, type: 3}
       propertyPath: carController
@@ -4968,9 +4976,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 627325573}
-  - {fileID: 519420032}
   - {fileID: 5683290692705959737}
   - {fileID: 615262745}
   - {fileID: 1512012815}
   - {fileID: 117299740}
   - {fileID: 1364140374309212262}
+  - {fileID: 519420032}
